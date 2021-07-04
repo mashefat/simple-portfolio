@@ -1,0 +1,131 @@
+/* Defalt Css */
+*{
+    margin: 0;
+    padding: 0;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.text-left{
+    text-align: left;
+}
+.text-right{
+    text-align: right;
+}
+.text-center{
+    text-align: center;
+}
+img{
+    max-width: 100%;
+}
+.btn{
+    text-decoration: none;
+    background-image:linear-gradient(rgb(240, 96, 13), rgb(230, 172, 14)) ;
+    padding: 10px 40px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    border-radius: 10px;
+    color: #fff;
+}
+
+/* INTRODUCTION SECTION */
+.introduction-section{
+    display: flex;
+   
+    background-image: url(./top-banner.png);
+    background-repeat: no-repeat;
+}
+.intro-sec{
+    width: 42%;
+    margin: 5rem;
+    position: relative;
+}
+.intro-text span{
+    color: rgb(238, 125, 20);
+}
+.intro-text h1{
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+.intro-text h2{
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+.intro-text h4{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+.intro-text p{
+    margin-bottom: 2rem;
+    color: #606060;
+    word-spacing: 2px;
+    font-size: 20px;
+    
+}
+.intro-photo{
+    margin-right: 20px;
+}
+.intro-photo img{
+    width: 50%;
+    background-image: linear-gradient(rgb(61, 221, 233), rgb(247, 124, 23));
+    height: 600px;
+    width: 600px;
+    border-radius: 50%;
+}
+.orng-div {
+    height: 70px;
+    width: 90px;
+    background-image: linear-gradient(orange, rgb(187, 176, 31));
+    border-radius: 50%;
+    position: absolute;
+    left: 50rem;
+    top: 3rem;
+}
+.blue-div {
+    height: 120px;
+    width: 120px;
+    background-image: linear-gradient(rgb(0, 153, 255), rgb(24, 234, 241));
+    border-radius: 50%;
+    position: absolute;
+    bottom: 4rem;
+    right: 10rem;
+    
+}
+/* .Dream section */
+.dream-section{
+    display: flex;
+    position: relative;
+    padding: 5rem;
+    margin-top: 5rem;
+    background-image: url(./images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    
+    
+}
+.dream-sec{
+    width: 50%;
+    margin: 5rem;
+    position: relative;
+}
+.purple-div{
+    height: 120px;
+    width: 120px;
+    background-image: linear-gradient(rgb(134, 11, 248), rgb(33, 73, 184));
+    border-radius: 50%;
+    position: absolute;
+    bottom: 4rem;
+    left: 7rem;
+}
+.dream-photo{
+    margin-right: 20px;
+}
+.dream-photo img{
+    width: 42%;
+    background-image: linear-gradient(rgb(233, 35, 184), rgb(229, 208, 190));
+    height: 600px;
+    width: 600px;
+    border-radius: 50%;
+}
